@@ -4,7 +4,10 @@ import Breadcrumb from "../Breadcrumbs/CreateDeckBreadcrumb";
 
 const CreateDeck = ({ deck, setDeck }) => {
   useEffect(() => {
-    const deckTemplate = () => setDeck({});
+    const deckTemplate = () => setDeck({
+    name: "",
+    description: "",
+  });
     deckTemplate();
   }, [setDeck]);
 
