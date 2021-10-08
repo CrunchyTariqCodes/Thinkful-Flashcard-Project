@@ -28,8 +28,8 @@ export default function EditDeck() {
 
   const handleChange = (event) => {
     const value = event.target.value;
-    setFormDeck({
-      ...formDeck,
+    setDeckForm({
+      ...deckForm,
       [event.target.name]: value,
     });
   };
