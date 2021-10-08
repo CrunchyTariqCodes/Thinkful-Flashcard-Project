@@ -4,7 +4,7 @@ import Header from "./Header";
 import Home from "./Home/index"
 import Study from "./Study/Study"
 import DisplayDeck from "./Decks/DisplayDeck"
-import CreateDeck from "./Cards/CreateDeck"
+import CreateDeck from "./Decks/CreateDeck"
 import EditDeck from "./Decks/EditDeck"
 import AddCard from "./Cards/AddCard"
 import EditCard from "./Cards/EditCard"
