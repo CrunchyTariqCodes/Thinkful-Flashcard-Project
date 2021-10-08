@@ -31,7 +31,7 @@ export default function CreateDeck() {
   const handleChange = (event) => {
     const value = event.target.value;
     setDeckForm({
-      ...DeokForm,
+      ...deokForm,
       [event.target.name]: value,
     });
   };
